@@ -1,0 +1,22 @@
+=== STATISTICAL ANALYSIS REPORT ===
+
+1. DESCRIPTIVE STATISTICS & CONFIDENCE INTERVALS
+Average Sales: $123,650.48 ± $19,874.13 (95% CI)
+Standard Deviation: $100,161.09
+
+2. CORRELATION ANALYSIS
+Correlation (Sales-Marketing): 0.91 (Strong Positive)
+p-value: < 0.0001 ✓ SIGNIFICANT
+
+3. HYPOTHESIS TESTS
+Test 1: T-test (East vs West Sales)
+t-statistic: 2.02, p-value: 0.0496 
+Result: ✓ SIGNIFICANT at alpha=0.05
+
+Test 2: ANOVA (Sales across all regions)
+F-statistic: 2.16, p-value: 0.0972 
+Result: ❌ NOT SIGNIFICANT at alpha=0.05
+
+4. REGRESSION ANALYSIS (Marketing Spend vs Total Sales)
+Marketing affects sales: p < 0.0001 ✓ SIGNIFICANT
+R-squared: 0.8278 (Model explains ~82.8% of variance)
